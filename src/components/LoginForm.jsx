@@ -25,7 +25,7 @@ const LoginForm = () => {
   return (
     <div>
         <Box sx={{
-                    width: '100vw',
+                    width: '50vw',
                     height: '100vh',
                     display: 'flex',
                     justifyContent: 'center',
@@ -98,7 +98,7 @@ const LoginForm = () => {
                     />
                     <Link href='#' underline='none' color='secondary' variant='body2'>Forgot password</Link>
                 </Box>
-                <Button sx={{textTransform: 'unset', marginBottom:'10px'}} variant="contained"  color='secondary' size='large' fullWidth>Sign in</Button>
+                <Button sx={{textTransform: 'unset', marginBottom:'10px'}}  variant="contained"  color='secondary' size='large' fullWidth>Sign in</Button>
                 <Button
                     sx={{textTransform: 'unset', marginBottom:'25px'}} 
                     variant="outlined" 
@@ -112,7 +112,7 @@ const LoginForm = () => {
                     sx={{display:'flex', gap:'5px'}}
                 >
                     <Typography sx={{color: '#8a8a8a'}} variant='body2'>Don't have an account?</Typography>
-                    <Link href='#' underline='none' color='secondary' variant='body2'>Sign up</Link>
+                    <Link href='/register'  underline='none' color='secondary' variant='body2'>Sign up</Link>
                 </Box>
             </Box>
             

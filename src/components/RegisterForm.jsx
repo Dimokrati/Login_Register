@@ -20,10 +20,11 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 const RegisterForm = () => {
     const [showPassword, setShowPassword] = useState(false);
     const handleClickShowPassword = () => setShowPassword((showPassword) => !showPassword);
+    
   return (
     <div>
          <Box sx={{
-                    width: '100vw',
+                    width: '50vw',
                     height: '100vh',
                     display: 'flex',
                     justifyContent: 'center',
@@ -130,7 +131,7 @@ const RegisterForm = () => {
             <Box
                 sx={{display:'flex', gap:'5px'}}>
                 <Typography sx={{color: '#8a8a8a'}} variant='body2'>Already have an account?</Typography>
-                <Link href='#' underline='none' color='secondary' variant='body2'>Sign in</Link>
+                <Link href='/login' underline='none' color='secondary' variant='body2'>Sign in</Link>
             </Box>
       </Box>
       </Box>
